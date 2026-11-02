@@ -12,7 +12,7 @@ import re
 import numpy as np
 import pandas as pd
 
-DATA_DIR = Path('/Users/xeniat/Desktop/archive')
+DATA_DIR = Path(__file__).resolve().parent / 'data'
 CHUNK_SIZE = 100_000
 PRE = '0D15:25:00.000000000'
 FINAL5 = '0D15:29:55.000000000'
